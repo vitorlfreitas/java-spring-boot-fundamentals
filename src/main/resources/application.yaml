@@ -6,3 +6,5 @@ stripe:
   apiUrl: https://api.stripe.com
   enabled: true
   supported-currencies: USD, EUR, GBP
+
+payment-gateway: paypal
