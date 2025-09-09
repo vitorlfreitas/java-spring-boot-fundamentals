@@ -1,0 +1,5 @@
+CREATE TABLE tags (
+    id   INT AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL UNIQUE,
+    CONSTRAINT tags_pk PRIMARY KEY (id)
+);
