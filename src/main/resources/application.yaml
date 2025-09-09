@@ -6,6 +6,7 @@ spring:
     username: vitorlfreitas
     password: Salvejorge1@
 
+
 stripe:
   apiUrl: https://api.stripe.com
   enabled: true

@@ -60,6 +60,16 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Flyway Migration Tool -->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-mysql</artifactId>
+        </dependency>
 
 
 
@@ -69,7 +79,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
+            <plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
